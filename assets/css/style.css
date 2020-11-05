@@ -6,7 +6,16 @@
 body {
     font-family: sans-serif;
 }
-
+.background
+{
+    background: #56ab2f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a8e063, #56ab2f);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100vw;
+}
 #nav-bar {
     position: sticky;
     top: 0;
@@ -61,7 +70,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 5%;
     color: #fff;
-    max-width: 1400px;
+   
 }
 
 .pomo-title {
@@ -124,7 +133,7 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #a8e063, #56ab2f);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    max-width: 1400px;
+   
 }
 
 /*About Us section */
@@ -162,7 +171,7 @@ body {
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding-top: 100px;
     padding-bottom: 50px;
-    max-width: 1400px;
+    
 }
 
 .testimonial {
@@ -214,7 +223,7 @@ body {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #99f2c8, #1f4037);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    max-width: 1400px;
+    
 }
 
 .footer-img {
